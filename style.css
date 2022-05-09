@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Dancing Script', cursive;
+font-family: 'Mate SC', serif;
+font-family: 'Viaoda Libre', cursive;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.img{
+    width: 266px;
+    padding-bottom: 3%;
+    
+}
+.header{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.coins{
+    
+    font-size:80%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding-left: 10%;
+}
+.coins:hover{
+    color: rgb(255, 22, 22);
+    
+}
+.second-img{
+    width: 80%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+.button{
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.button:hover{
+    color: rgb(255, 22, 22);
+    
+}
+.button1{
+    width: 70px;
+        margin-bottom: 40px;
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 30px;
+        border: none;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+}
+.button1:hover{
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.button2{
+    color: white;
+    background-color: orangered;
+    border:none;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+}
+.button2:hover{
+    color: rgb(24,24,24);
+    border: 1px solid rgb(250, 17, 17);
+    background: #ee1919 linear-gradient(#dd2a2a, #dd3333);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.box2{
+    width: 266px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 3%;
+    
+}
+.text2{
+    padding-left: 10.5%;
+    font-size: 25px;
+    padding-top: 2%;
+}
+.img5{
+    width: 100%;
+}
+.pizza{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.pp{
+    font-size: 20px;
+    text-align: start;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.ppp{
+    text-align: start;
+    font-size: 13px;
+}
+.sets{
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.pizza-img{
+    width: 160px;
+}
+.pizza-img:hover {
+    transform: translateY(5px);
+    transition-duration: .4s;
+    
+}
+.gg{
+    padding-bottom: 3%;
+}
+.price1{
+    padding-top: 43%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.price2{
+    padding-top: 24%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.price3{
+    padding-top: 21%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.price4{
+    padding-top: 35%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
